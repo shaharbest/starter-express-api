@@ -14,5 +14,6 @@ app.get('/ping', (req, res) => {
 })
 
 app.use('/users', require('./routes/usersRoutes'));
+app.use('/products', require('./routes/productsRoutes'));
 
 app.listen(process.env.PORT || 3000)

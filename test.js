@@ -5,7 +5,7 @@ main();
 
 async function main() {
 	db.connect();
-	// await addTurtles();
+	await addTurtles();
 	await printAllUsers();
 	// await addAviBiter();
 	// await deleteAllUsers();
